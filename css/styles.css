@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat+Alternates:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/* Tag Selectors */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #40514e;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  margin: 50px, auto, 0, auto;
+  color: #66bfbf;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a {
+  color: #11999e;
+}
+
+a:hover {
+  color: #eaf6f6
+}
+
+
+
+
+/* Class Selectors .className  */
+
+.nav-bar {
+  background-color: #fef8f8;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  position: center;
+
+}
+
+.top-cloud {
+  position: absolute;
+  top: 90px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.role-title {
+  color: #66bfbf;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  
+}
+
+.skill-img-internet {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-art {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+
+}
+
+.btn {
+  background-color: #11999e;
+  border: none;
+  color: #eaf6f6;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.footer-link {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* ID Selectors #idName   */
